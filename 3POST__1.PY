@@ -1,4 +1,4 @@
-# This script will create a Voice SLA Class List in Cisco SD-WAN Sandbox
+# This script will create a Voice SLA Class List in Cisco SD-WAN Sandbox.
 
 import requests
 import json
@@ -54,3 +54,4 @@ if response.status_code != 200:
     exit()
 
 print(response.text)
+
