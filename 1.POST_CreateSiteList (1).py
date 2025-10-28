@@ -1,7 +1,7 @@
 import requests
 import json
 
-requests.packages.urllib3.disable_warnings()  # Disable SSL warnings
+requests.packages.urllib3.disable_warnings()  # Disable SSL warnings.
 
 USERNAME = "devnetuser"  # Sandbox username
 PASSWORD = "RG!_Yw919_83"  # Sandbox password
@@ -49,3 +49,4 @@ if response.status_code != 200:
     exit()
 
 print(response.text)
+
